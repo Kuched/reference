@@ -1,4 +1,4 @@
-** Отмена запроса пароля SUDO в Linux на паримере Docker (VS Code)
+** Отмена запроса пароля SUDO в Linux на примере Docker (VS Code)
 
 1. Для того чтобы дать пользователю разрешение на запуск Docker без ввода пароля, вам нужно добавить соответствующую запись в файл sudoers.
 2. username ALL=(ALL:ALL) NOPASSWD: /usr/bin/docker
